@@ -2,7 +2,7 @@ const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 const dirNode = 'node_modules'
-const dirApp = path.join(__dirname, 'sketches')
+const dirApp = path.join(__dirname, 'sketch')
 const dirAssets = path.join(__dirname, 'lib/assets')
 
 const appHtmlTitle = 'Webpack Boilerplate'
@@ -15,7 +15,7 @@ module.exports = {
     vendor: [
       'lodash'
     ],
-    bundle: path.join(dirApp, 'simple')
+    bundle: path.join(dirApp, 'index')
   },
   resolve: {
     modules: [
@@ -82,7 +82,7 @@ module.exports = {
         test: /\.(jpe?g|png|gif)$/,
         loader: 'file-loader',
         options: {
-          name: '[path][name].[ext]'
+          name: '[name].[ext]'
         }
       }
     ]

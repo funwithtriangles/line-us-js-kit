@@ -6,8 +6,17 @@
     <title><%= htmlWebpackPlugin.options.title %></title>
 </head>
 <body>
+  <div class="row">
     <div class="content">
-        <button id="go">LINE-US GO!</button>
+      <h1>Line-us JS kit</h1>
+      <button id="go">LINE-US GO!</button>
     </div>
+    <div class="chart">
+      <img src="chart.png" />
+      <div class="canvas-container">
+        <canvas id="canvas"></canvas>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
