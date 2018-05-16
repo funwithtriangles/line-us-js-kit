@@ -7,6 +7,20 @@ html {
 
 body {
   margin: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 28px;
+  line-height: 1.5;
+}
+
+small {
+  font-size: 12px;
 }
 
 .row {
@@ -26,7 +40,7 @@ body {
   img {
     height: 100%;
     width: auto;
-    opacity: 0.2
+    opacity: 0.8
   }
 }
 
@@ -40,5 +54,21 @@ body {
   canvas {
     height: 100%;
     width: 100%;
+  }
+}
+
+button {
+  font-size: 30px;
+  background: hotpink;
+  color: white;
+  padding: 1rem;
+  font-weight: bold;
+  border: 0;
+  outline: 0;
+  opacity: 0.9;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 1;
   }
 }
