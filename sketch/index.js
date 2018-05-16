@@ -18,7 +18,7 @@ lineTo('1500', '200')
 dot('1500', '800')
 
 // Fun polygon util
-// center X, center Y, radius, num of vertices, rotation (in rad)
+// center X, center Y, radius, num of vertices, rotation (in radians)
 drawPolygon(1300, -500, 80, 3)
 drawPolygon(1300, -500, 200, 3, Math.PI)
 drawPolygon(1300, -500, 300, 5)
