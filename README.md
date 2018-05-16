@@ -20,7 +20,12 @@ $ npm start
 
 ## Programmers Guide
 
-Edit `sketch/index.js` to create your own drawings. You have the following commands available:
+Edit `sketch/index.js` to create your own drawings.
+
+Saving will automatically refresh the browser at [http://localhost:8080/](http://localhost:8080/) so you can instantly see how your drawing will look.
+
+You have the following commands available:
+
 ```javascript
 import { moveTo, lineTo, dot } from '../lib'
 import drawPolygon from '../lib/utils/drawPolygon'
@@ -38,6 +43,8 @@ drawPolygon(1300, -500, 80, 3)
 drawPolygon(1300, -500, 200, 3, Math.PI)
 drawPolygon(1300, -500, 300, 5)
 ```
+
+
 
 ## Contributing
 All contributions welcome!
