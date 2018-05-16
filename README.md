@@ -1,4 +1,7 @@
 # Line-us JS Kit
+
+![Line-us Previewer](http://funwithtriangles.net/line-us-js-kit/screenshot.png)
+
 A fun way to use your [Line-us](https://www.line-us.com/).
 
 1. Write commands in Javascript
