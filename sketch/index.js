@@ -1,4 +1,4 @@
-import { moveTo, lineTo, dot } from '../lib'
+import { moveTo, lineTo, dot, finish } from '../lib'
 import drawPolygon from '../lib/utils/drawPolygon'
 
 // Move pen and draw lines to coordinates
@@ -22,3 +22,5 @@ dot('1500', '800')
 drawPolygon(1300, -500, 80, 3)
 drawPolygon(1300, -500, 200, 3, Math.PI)
 drawPolygon(1300, -500, 300, 5)
+
+finish()
