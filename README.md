@@ -101,8 +101,6 @@ const waveAmpX = 100
 let delta, alpha
 let x, y
 
-moveTo(xRange[0], yRange[0])
-
 for (let i = 0; i < numRows; i++) {
   for (let j = 0; j < numPoints; j++) {
     delta = deltaStep * j
