@@ -83,20 +83,22 @@ finish()
 import { moveTo, lineTo, finish } from '../lib'
 
 const PI = Math.PI
-const numRows = 100
-const numPoints = 100
+
 const xStart = 700
 const xRange = 1100
 const yStart = -1000
 const yRange = 2000
-const yStep = yRange / numRows
-const xStep = xRange / numPoints
-const numWavesX = 3
-const numWavesY = 5
-const deltaStep = PI / numPoints * numWavesX
-const alphaStep = PI / numRows * numWavesY
+const numRows = 100
+const numPoints = 100
+const numWavesX = 4
+const numWavesY = 3
 const waveAmpY = 150
 const waveAmpX = 100
+
+const yStep = yRange / (numRows - 1)
+const xStep = xRange / (numPoints - 1)
+const deltaStep = PI / (numPoints - 1) * numWavesX
+const alphaStep = PI / (numRows - 1) * numWavesY
 
 let delta, alpha
 let x, y
